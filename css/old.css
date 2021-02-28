@@ -1,0 +1,590 @@
+body {
+  margin: 0;
+  justify-content: center;
+  background: url("https://hdqwalls.com/download/stranger-things-season-3-2019-4k-5k-38-1920x1080.jpg") center / cover no-repeat;
+  background-size: 1920px 1080px;
+  background-position: top;
+  /* background-attachment: fixed; */
+}
+
+/* ====================mainbody====================== */
+.main__body {
+  width: 100%;
+  height: 800px;
+  background-color: black;
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(10px);
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.col-lg-8 {
+  margin: 0;
+  padding: 0;
+}
+
+.bx-menu {
+  background-color: black;
+  color: red;
+  width: 50px;
+  height: 50px;
+}
+
+.imgt {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.imgmy {
+  width: 100%;
+  display: block;
+}
+
+/* signup form */
+/* #login_s {
+  width: 57%;
+  height: 80%;
+  position: fixed;
+  z-index: 5;
+  transition: 0.5s all;
+} */
+/* signup form */
+/* .bicycle */
+.img-group {
+  position: absolute;
+  top: 780px;
+  right: 400px;
+}
+
+/* =========top================= */
+.top_form {
+  text-align: center;
+  margin: 0px 0 0 0px;
+  width: 100%;
+  height: 950px;
+  padding-top: 200px;
+  position: relative;
+}
+
+.top_form img {
+  margin-top: -12px;
+  width: 40%;
+}
+
+.covid_btn {
+  padding: 13px 18px;
+  background: linear-gradient(to bottom, #e8edec, #d2d1d3);
+  display: inline-block;
+  margin: 10px 69px;
+  transition: 0.1s;
+  border: 1px solid linear-gradient(to bottom, #e8edec, #d2d1d3);
+  font-size: 20px;
+  border-radius: 25px;
+}
+
+.covid_btn:hover {
+  background: linear-gradient(to bottom, #e8edec, #d2d1d3);
+  box-shadow: 0px 3px 20px 0px black;
+  transform: scale(1.2);
+  color: black;
+}
+
+.covid_btn_none_display {
+  display: none;
+}
+
+.covid_btn a {
+  text-decoration: none;
+}
+
+.fa-play {
+  width: 28px;
+  margin-right: 8px;
+}
+
+.covid_btn a {
+  color: white;
+}
+
+/* .covid_form_details {
+  opacity: 0;
+}
+
+#covid_form_details {
+  margin-top: 2.5rem;
+} */
+/*
+.covid_form_details_visible {
+  display: inline-block;
+  background-color: black;
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+  opacity: 0.8;
+} */
+.covid_transition {
+  transition: 0.8s;
+}
+
+/* ==================top form end================== */
+/* top nav */
+.nav__link {
+  height: 30px;
+  margin: 0px 1px;
+  transition: 0.2s all;
+  position: static;
+  padding: 10px 20px;
+  color: white;
+}
+
+.nav__item {
+  margin-right: 0;
+}
+
+.nav__link:hover {
+  height: 90px;
+  transition: 0.3s ease-in;
+}
+
+.nav__perfil {
+  margin-left: 0;
+  margin-right: 300px;
+}
+
+/* dont change this */
+.left {
+  width: 60%;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+/* FOOTER SECTION */
+.footer {
+  height: 900px;
+  background-color: black;
+  /* margin-top: 50px; */
+}
+
+.header_not_visible {
+  display: none;
+}
+
+.body_no_scroll {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.nav__img {
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  width: 90px;
+  height: 90px;
+  margin-left: -300px;
+  /* margin-right: 20px; */
+}
+
+.nav__img img {
+  width: 100%;
+}
+
+.nav__name {
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-left: 35px;
+}
+
+@media (min-width:900px) {
+  .nav__link .fa-home {
+    margin-left: -17px;
+  }
+}
+
+/* REMOVING THE LEFT NAV */
+@media (max-width:900px) {
+  body {
+    margin: 0;
+    background: none;
+  }
+
+  /* solar system================== */
+  /* KEYFRAMES */
+  @keyframes spin {
+    from {
+      transform: rotate(0);
+    }
+
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  @keyframes spin3D {
+    from {
+      transform: rotate3d(.5, .5, .5, 360deg);
+    }
+
+    to {
+      transform: rotate3d(0deg);
+    }
+  }
+
+  @keyframes configure-clockwise {
+    0% {
+      transform: rotate(0);
+    }
+
+    25% {
+      transform: rotate(90deg);
+    }
+
+    50% {
+      transform: rotate(180deg);
+    }
+
+    75% {
+      transform: rotate(270deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes configure-xclockwise {
+    0% {
+      transform: rotate(45deg);
+    }
+
+    25% {
+      transform: rotate(-45deg);
+    }
+
+    50% {
+      transform: rotate(-135deg);
+    }
+
+    75% {
+      transform: rotate(-225deg);
+    }
+
+    100% {
+      transform: rotate(-315deg);
+    }
+  }
+
+  @keyframes pulse {
+    from {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    to {
+      opacity: .25;
+      transform: scale(.75);
+    }
+  }
+
+  .solar-system {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .orbit {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 50%;
+  }
+
+  .earth-orbit {
+    width: 280px;
+    height: 280px;
+    -webkit-animation: spin 12s linear 0s infinite;
+  }
+
+  .venus-orbit {
+    width: 160px;
+    height: 160px;
+    -webkit-animation: spin 7.4s linear 0s infinite;
+  }
+
+  .mercury-orbit {
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 3s linear 0s infinite;
+  }
+
+  .planet {
+    position: absolute;
+    top: -5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #3ff9dc;
+  }
+
+  .sun {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #ffab91;
+  }
+
+  /* ================solsr================ */
+  .body_no_scroll {
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  /* nav================== */
+  .nav__link {
+    background-color: #323232;
+    height: 16%;
+    margin-left: 7%;
+    transition: 0.2s all;
+    position: static;
+    padding: 4% 10%;
+    color: grey;
+    border: 1px solid #323232;
+    border-radius: 24px;
+  }
+
+  .nav__name {
+    margin-left: 96%;
+    color: grey;
+  }
+
+  .about_in_mb {
+    font-family: 'Dancing Script', cursive;
+    margin-left: 10%;
+  }
+
+  .nav__img {
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+  }
+
+  .nav__img img {
+    width: 100%;
+  }
+
+  .nav__link .fa-2x {
+    margin-right: 10px;
+  }
+
+  .nav__item {
+    margin: 0 0 20% 4%;
+    font-size: 0.88rem;
+  }
+
+  /* scaling effect in phone */
+  #toBlur {
+    transition: 0.5s;
+  }
+
+  #toBlur:hover {
+    transform: scale(0.93);
+  }
+
+  .main-body {
+    background-color: black;
+  }
+
+  #whole {
+    width: 100%;
+    transition: 0.5s;
+  }
+
+  #whole-top {
+    background-color: white;
+  }
+
+  #whole:hover {
+    transform: scale(0.93);
+    border-radius: 20%;
+    /* background-color: white; */
+  }
+
+  /* scaling effect in phone */
+  #header-toggle {
+    width: 50px;
+    margin-left: 20px;
+    background-color: transparent;
+  }
+
+  /* login section */
+  /* #login_s {
+    width: 100%;
+    height: 95%;
+    position: fixed;
+    background-image: none;
+    background-color: transparent;
+    z-index: 5;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    transition: 0.5s all;
+    margin-top: 20%;
+  } */
+  /* top form */
+  .section .bg-move {
+    position: absolute;
+    top: 85%;
+    bottom: 0;
+    right: auto;
+    width: 110%;
+    height: 15%;
+    display: none;
+  }
+
+  .img-group {
+    left: 12%;
+    top: 30%;
+    opacity: 0.9;
+  }
+
+  .top_form img {
+    width: 80%;
+  }
+
+  .button_section {
+    padding-top: 100px;
+    width: 300px;
+  }
+
+  /* main-body */
+  .about {
+    color: grey;
+    font-size: 1rem;
+    width: 100%;
+    display: none;
+  }
+
+  /* changing the color of dropdown menu it was a bug */
+  .dropdown:hover>.dropdown__menu {
+    background-color: white;
+    text-decoration: none;
+  }
+
+  .hr-left-nav {
+    display: none;
+  }
+
+  .left-nav {
+    display: none;
+  }
+}
+
+.wrapper {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: white;
+  background-image: url(http://1234kyle5678.com/wp-content/uploads/2016/07/Stranger-Things-Logo-Netflix-Television-Show-Winona-Ryder-Duffer-Brothers-1234kyle5678-1.png);
+  background-repeat: no-repeat;
+  background-position: center 200px;
+  background-color: black;
+}
+
+.text {
+  font-family: 'Pathway Gothic One';
+  text-transform: uppercase;
+  color: red;
+}
+
+.text-veil {
+  display: block;
+  opacity: 0;
+  transition: opacity .3s ease;
+  background-color: rgba(255, 255, 255, .8);
+  height: 100%;
+  width: 100%;
+  font-size: 2em;
+  text-align: center;
+}
+
+.fa-video-camera {
+  margin-top: 1.2em;
+  color: black;
+}
+
+.box {
+  width: 30%;
+  height: 12.5rem;
+  border: 7px solid white;
+  position: absolute;
+  box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+  margin-top: 3em;
+}
+
+.rotate-boxes {
+  position: relative;
+}
+
+.box:nth-child(1) {
+  background-image: url(http://tvseriesfinale.com/wp-content/uploads/2016/06/Stranger-Things-TV-show-on-Netflix-season-1-canceled-or-renewed-590x332.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: -1%;
+  transform: rotateZ(-5deg);
+}
+
+.box:nth-child(2) {
+  background-image: url(https://i.kinja-img.com/gawker-media/image/upload/tc70tbrbumkj6otvimc6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 20%;
+  z-index: 2;
+  transform: rotateZ(-2deg);
+}
+
+.box:nth-child(3) {
+  background-image: url(https://cdn2.cnet.com/img/ZBsvGx4ssPp6hqjbUrkFAYH-U_Y=/970x0/2016/07/27/69f55bac-baf8-43c1-b0dd-7ab2adc78bf0/stranger-things.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 44%;
+  z-index: 1;
+  transform: rotateZ(-6deg);
+}
+
+.box:nth-child(4) {
+  background-image: url(http://www.lashorasperdidas.com/wp-content/uploads/2016/06/stranger-things.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  right: -1%;
+  transform: rotateZ(6deg);
+}
+
+.box:hover {
+  z-index: 3;
+}
+
+.box:hover .text-veil {
+  opacity: 1;
+}
