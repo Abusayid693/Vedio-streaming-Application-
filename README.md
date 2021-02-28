@@ -1,4 +1,4 @@
-# My-personal-site
+# VIDEO STREAMING PLATFORM
 What it does It streams larger Video files in small chunks and provide a seamless viewing experience to viewers
 
 How I built It is built of full stack environment where admin can add new series and episodes with a little change in code and empowers flexibility to admin to maintain the site
