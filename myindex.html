@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="google-signin-client_id" content="246662172165-olfj3qm9ckcmd08e1mujokbuh2o9ht7u.apps.googleusercontent.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.79.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Amatica+SC:400,700" rel="stylesheet">
+  <!-- <a href="https://codepen.io/collection/ArLPGy/" target="_blank">see whole collection</a> -->
+
+
+
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <!-- fotawesome script -->
+  <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <!-- ===== CSS ===== -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/music.css">
+  <link rel="stylesheet" href="css/old.css">
+  <link rel="stylesheet" href="css/desktop.css">
+  <link rel="stylesheet" href="css/login.css">
+
+
+  <title>Responsive menu dropdown</title>
+</head>
+
+
+<!-- <div id="loader"> -->
+<!-- <div class="load_circle load_circle1"></div>
+  <div class="load_circle load_circle2"></div>
+  <div class="load_circle load_circle3"></div> -->
+<!--=========== new========== -->
+<!--
+  <div class="spinner-box">
+
+    <div class="solar-system">
+      <div class="earth-orbit orbit">
+        <div class="planet earth"></div>
+        <div class="venus-orbit orbit">
+          <div class="planet venus"></div>
+          <div class="mercury-orbit orbit">
+            <div class="planet mercury"></div> -->
+<!-- <div class="sun"></div> -->
+<!-- <img class="sun" src="img/logost.jpg" alt="">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+<!-- new============================= -->
+<!-- </div> -->
+
+
+<body class="container-fluid" id="body" onload="remove()">
+
+  <!-- this is for making the backgroud image fixed -->
+  <div class="top_image">
+
+  </div>
+
+  <header id="header" class="header">
+    <!-- header image -->
+    <a href="#" class="header__logo">Rehan</a>
+
+    <i class='bx bx-menu header__toggle' id="header-toggle"></i>
+
+    <nav class="nav" id="nav-menu">
+      <div class="nav__content bd-grid nav_no_effect left" id="delay">
+        <a href="" class="nav__perfil">
+          <div class="nav__img">
+            <img src="img/logost.jpg" alt="">
+          </div>
+
+          <div>
+            <span class="nav__name">FanTube</span>
+
+          </div>
+        </a>
+
+        <div class="nav__menu " id="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link active"><i class="fas fa-2x fa-home"></i>Home</a></li>
+
+            <li class="nav__item"><a href="https/subscribe" class="nav__link"><i class="fas fa-2x fa-user"></i>Character</a></li>
+
+            <li class="nav__item"><a href="https://limitless-springs-19430.herokuapp.com/subscribe" class="nav__link"><i class="fab fa-2x fa-github"></i>Contribute</a></li>
+            <li class="nav__item"><a href="http://localhost:3000/subscribe" class="nav__link"><i class="fas fa-2x fa-users"></i>Team</a></li>
+
+          </ul>
+        </div>
+        <div class="about_in_mb">
+          <h5>@Designed By Rehan</h5>
+          <!-- here -->
+
+
+
+          <!-- here -->
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+
+
+
+
+
+
+
+  <!--============================== Signup form=================================== -->
+
+  <div class="login_b" id="login_s">
+    <div class="full-form">
+      <span class="skip_btn" id="back_login"> <a><i class="fas fa-backspace"></i></a> </span>
+      <div class="form-upper">
+        <h3 class="sign-up">SUBSCRIBE</h3>
+
+
+      </div>
+
+      <div class="form-middle">
+        <form class="" action="/subscribe" method="post">
+          <img class="mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+          <h1 class="h3 mb-3 fw-normal"></h1>
+
+          <input type="text" value="" name="firstname" class="form-control first-name" placeholder="First name" required autofocus></input>
+
+          <i class="fas fa-input fa-hand-paper"></i>
+          <input type="text" value="" name="secondname" class="form-control second-name" placeholder="Second Name" required></input>
+
+          <i class="fas fa-input fa-hand-paper"></i>
+          <input type="email" value="" name="email" class="form-control email-id" placeholder="Email address" required autofocus>
+          <i class="fas fa-input  fa-envelope"></i>
+
+
+          <button class=" " id="clickButton" type="submit">SIGN UP</button>
+        </form>
+
+
+        <!-- GOOGLE SIGN IN BUTTON -->
+
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
+        <!-- GOOGLE SIGN IN BUTTON END -->
+
+        <p class=" text-muted">&copy;Rehan choudhury</p>
+      </div>
+      <div class="form-bottom">
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================signup form end ==================================-->
+
+
+
+
+
+
+
+
+
+
+  <!-- <========================== BODY NAV LEFT SIDE=================================== -->
+  <section id="music">
+
+    <div class="music3 music3-scale-sm" id="music3">
+      <div class="music-top">
+        <div class="music-top-1">
+          <img class="music-top-image" id="music-top-image" src="img/music1.jpg" alt="">
+        </div>
+        <div class="music-top-2">
+          <h3 id="music_text">music-1</h3>
+        </div>
+
+      </div>
+      <div class="music-middle">
+
+      </div>
+      <div class="music-bottom">
+
+        <span id="backward" class="backward"><a class="anchor"><i class="fas fa-2x fa-backward" id="backwardd"></i></a> </span>
+
+        <span id="play-pause" class="play-pause"><a class="anchor"><i class="fas fa-2x fa-play" id="play-paused"></i> </a> </span>
+
+        <span id="forward" class="forward"><a class="anchor"> <i class="fas fa-2x fa-forward" id="forwardd"></i> </a> </span>
+
+
+      </div>
+      <div class="music-footer">
+        <span id="volume-down" class="volume-down"><a class="anchor"> <i class="fas  fa-volume-down"></i> </a> </span>
+        <!-- changes -->
+
+
+
+
+        <!-- to insert slider -->
+
+
+
+
+
+
+        <!-- changes -->
+        <span id="volume-up" class="volume-up"><a class="anchor"><i class="fas  fa-volume-up"></i></i> </a> </span>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!--=============================== BODY NAV LEFT SIDE===================================== -->
+
+
+  <!-- top==========================gtkkjk============================================================================= -->
+
+
+
+
+
+
+
+
+
+
+  <!-- top==========================gtkkjk========================== -->
+
+  <section id="toBlur">
+
+
+    <div class="top_form">
+      <img src="img/logo.png" class="logo_" alt="Stranger-things-logo">
+      <div class="button_section">
+
+        <span class="covid_btn" id="covid_btn"> <a><i class="fas fa-play "></i>SUBSCRIBE</a> </span>
+
+      </div>
+      <div class="covid_form_details covid_transition" id="covid_form_details">
+
+      </div>
+  </section>
+
+  <!-- top -->
+
+
+
+
+
+
+
+  <div class="Series">
+    <div class="series-1 series_">
+      <a href="http://localhost:3000/player"> <img src="Thumnails/vid-9.jpg" alt=""> </a>
+    </div>
+    <div class="series-2 series_">
+      <a href="http://localhost:3000/player2"> <img src="Thumnails/S/vid-2.jpg" alt=""> </a>
+
+    </div>
+    <div class="series-3 series_">
+      <a href="#"> <img src="Thumnails/dark.jpg" alt=""> </a>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <!-- footer -->
+
+  <div class="footer">
+    <!-- <h1>bkjbjkgyfytjhjkljkhjgfhdgxvcb bkygjgkjhk</h1> -->
+  </div>
+
+  <!-- footer -->
+  <style media="screen">
+    .Series {
+      width: 100%;
+      height: 900px;
+      background-color: #393e46;
+    }
+
+    .series_:hover {
+      transform: scale(1.2);
+    }
+
+    .series_ {
+      display: inline-block;
+      padding: 20px;
+      background-color: #323232;
+      width: 27%;
+      height: 28%;
+      margin: 30px;
+      border-radius: 24px;
+      transition: 0.3s;
+    }
+
+    .series_ a img {
+      width: 100%;
+
+
+    }
+
+    #login_s {
+      margin-top: 50px;
+      position: fixed;
+      width: 90%;
+      height: 85%;
+      z-index: 5;
+      transition: 0.5s;
+
+    }
+
+    .full-form {
+      background-color: #323232;
+      border-radius: 30px;
+      width: 30%;
+      height: 80%;
+
+    }
+
+
+    .login_b {
+      left: -90%;
+    }
+
+    .login_t {
+      left: 36%;
+    }
+  </style>
+
+
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    delay();
+    signup();
+
+    // ==============================================her=============================e/
+
+
+
+
+    // ==========================================/===============================/====================================/
+    var signupFormOpen = 0;
+    //top form script end
+    function signup() {
+
+      document.querySelector("#covid_btn").addEventListener("click", function() {
+        signupFormOpen = 1;
+        document.querySelector("#music").classList.toggle("music_opacity");
+
+        document.querySelector("#header").classList.toggle("header_not_visible");
+        document.querySelector("#toBlur").classList.toggle("blur");
+
+
+        document.querySelector("#login_s").setAttribute("class", "login_t");
+
+
+      })
+      document.querySelector("#back_login").addEventListener("click", function() {
+        document.querySelector("#music").classList.toggle("music_opacity");
+
+        document.querySelector("#header").classList.toggle("header_not_visible");
+        document.querySelector("#toBlur").classList.toggle("blur");
+
+        document.querySelector("#login_s").setAttribute("class", "login_b");
+
+      })
+
+
+    }
+
+
+
+
+
+    //automatically bringing the signup page
+    function myFunction() {
+      setTimeout(function() {
+        signUpAutomatic();
+      }, 10000)
+    };
+    // //automatically bringing the signup page
+    function signUpAutomatic() {
+      if (signupFormOpen == 0) {
+
+
+        setTimeout(function() {
+          document.querySelector("#music").classList.toggle("music_opacity");
+
+          document.querySelector("#login_s").setAttribute("class", "login_t");
+
+          document.querySelector("#header").classList.toggle("header_not_visible");
+        }, 100)
+      }
+    };
+    //automatically bringing the signup page
+
+
+
+    function delay() {
+
+      document.querySelector("#header-toggle").addEventListener("click", function() {
+        //stopping the scrolling of the body
+        document.querySelector("#body").classList.toggle("body_no_scroll");
+        // document.querySelector("#delay").classList.toggle("nav_no_effec");
+
+        // document.querySelector("#delay").classList.toggle("nav__menu_effect");
+      })
+
+
+    }
+    //bicycle
+    $(window).on("load resize scroll", function() {
+      $(".bg-static").each(function() {
+        var windowTop = $(window).scrollTop();
+        var elementTop = $(this).offset().top;
+        var leftPosition = windowTop - elementTop;
+        $(this)
+          .find(".bg-move")
+          .css({
+            left: leftPosition
+          });
+      });
+    });
+
+
+
+
+    //removing loader
+    // var a = document.querySelector("#loader");
+
+    function remove() {
+
+      // a.style.display = "none";
+      //bringing login page after page is loaded
+      myFunction();
+    }
+  </script>
+
+
+
+  <!--===== MAIN JS =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="js/login.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/annimation.js"></script>
+  <script src="js/music.js" charset="utf-8"></script>
+  <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+</body>
+
+</html>
