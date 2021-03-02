@@ -1,8 +1,8 @@
 # VIDEO STREAMING PLATFORM
-# vedio are removed
-What it does It streams larger Video files in small chunks and provide a seamless viewing experience to viewers
+# vedios are removed
+It streams larger Video files in small chunks and provide a seamless viewing experience to viewers.
+It is built of full stack environment where admin can add new series and episodes with a little change in code and empowers flexibility to admin to maintain the site.
 
-How I built It is built of full stack environment where admin can add new series and episodes with a little change in code and empowers flexibility to admin to maintain the site
 # COMMENT SECTION USING mongoDB
 ![](https://github.com/Abusayid693/Vedio-streaming-Application-/blob/main/Screenshot%202021-03-01%20at%202.30.05%20AM.png)
 
